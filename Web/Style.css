@@ -1,0 +1,161 @@
+body {
+    opacity: 1;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('imagenes/Fotoram.io.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#pers {
+    float: none;
+}
+
+@font-face {
+    font-family: 'abecedary';
+    src: url(abecedary/Abecedary-Expanded.ttf)
+}
+
+h2 {
+    font-family: 'abecedary';
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.imagenes-destacadas {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea,
+form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#insta {
+    max-width: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: blue;
+}
+
+footer a:active {
+    color: yellow;
+    font-weight: bold;
+}
+
+ol {
+    margin-left: 600px;
+    text-align: left;
+}
+
+form {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    height: 80px;
+}
