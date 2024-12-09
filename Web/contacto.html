@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Rosario Bolsos</title>
+    <link rel="stylesheet" href="Stylecont.css">
+    <link rel="icon" type="image/png" href="imagenes/Imagen de WhatsApp 2024-12-06 a las 13.10.46_d34aa603.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Web.html">Inicio</a></li>
+                <li><a href="coleccion.html">Colección</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contáctanos</h1>
+
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dropdown">Selecciona una opción:</label>
+            <select id="dropdown" name="dropdown" required>
+                <option value="" disabled selected>Elige bolso</option>
+                <option value="opcion1">Bolso pana azul</option>
+                <option value="opcion2">Riñonera floral</option>
+                <option value="opcion3">Bolso floral tonos marrones</option>
+                <option value="opcion4">Bolso estampado tigre</option>
+                <option value="opcion5">Bolso interior margaritas</option>
+                <option value="opcion6">Bolso escocés</option>
+                <option value="opcion7">Bandolera lunares</option>
+                <option value="opcion8">Bandolera cuadros</option>
+                <option value="opcion9">Bandolera floral</option>
+                <option value="opcion10">Bolsa vinoteca</option>
+                <option value="opcion11">Bandolera blanca</option>
+                <option value="opcion12">Bolso verano+monedero</option>
+                <option value="opcion13">Bolso vaquero</option>
+            </select>
+
+            <label for="numberField">Introduce cantidad:</label>
+            <input type="number" id="numberField" name="numberField" min="1" max="100" step="1" required>
+
+            
+            <label>Lugar del envio:</label><br>
+            Dentro de España
+            <input type="radio" name="Lugar" value="dentro España"> 
+            Fuera de España
+            <input type="radio" name="Lugar" value="fuera España"><br>
+
+            <label>Personalización:</label><br>
+            Personalizada completamente.
+            <input type="checkbox" name="todo" value="todo">
+            Bordar iniciales
+            <input type="checkbox" name="iniciales" value="iniciales"><br>
+
+            <label for="mensaje">Información adicional a añadir:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6135657.312089396!2d-8.002889660503618!3d40.20864779928708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1a09b7c9a1bb%3A0x402afefed8b6f40!2sEspa%C3%B1a!5e0!3m2!1ses!2ses!4v1691683244767!5m2!1ses!2ses" ></iframe>
+    </main>
+
+    <footer>
+        <p>Síguenos en Instagram<img id="insta" src="imagenes/Instagram_logo_2022.svg.png"/>: <a href="https://www.instagram.com/rosario_bolsos?igsh=MWxvcnd1Z2FkY2RqeA==" target="_blank">@rosario_bolsos</a></p>
+    </footer>
+</body>
+</html>

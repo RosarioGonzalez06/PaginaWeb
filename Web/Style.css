@@ -1,0 +1,90 @@
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+body {
+    opacity: 1;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('imagenes/Fotoram.io.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: 'abecedary';
+    src: url(abecedary/Abecedary-Expanded.ttf)
+}
+
+h2 {
+    font-family: 'abecedary';
+}
+
+.imagenes-destacadas {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.imagen img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+ol {
+    margin-left: 600px;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+#insta {
+    max-width: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: blue;
+}
+
+footer a:active {
+    color: yellow;
+    font-weight: bold;
+}
+
+

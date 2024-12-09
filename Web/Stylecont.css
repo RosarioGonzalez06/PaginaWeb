@@ -1,0 +1,106 @@
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+body {
+    opacity: 1;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('imagenes/Fotoram.io.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: 'abecedary';
+    src: url(abecedary/Abecedary-Expanded.ttf)
+}
+
+h2 {
+    font-family: 'abecedary';
+}
+
+form {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    height: 80px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+#insta {
+    max-width: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: blue;
+}
+
+footer a:active {
+    color: yellow;
+    font-weight: bold;
+}
+
